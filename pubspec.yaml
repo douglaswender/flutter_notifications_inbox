@@ -1,0 +1,29 @@
+name: flutter_notifications_inbox
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.6.0
+  firebase_analytics: ^10.2.1
+  firebase_core: ^2.10.0
+  firebase_messaging: ^14.4.1
+  firebase_remote_config: ^4.0.2
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^14.0.0+1
+  flutter_modular: ^5.0.3
+  mobx: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  mobx_codegen: ^2.2.0
+
+flutter:
+  uses-material-design: true
